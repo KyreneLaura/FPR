@@ -1,0 +1,58 @@
+parameters ---  pertrained : resnet50 | mode: all | IDE: False | FPN: True |  rerank: False
+parameters ---  drop: 0.0 | Ir: 0.01 | dim: 512| re: 0.2
+parameters ---  Train_batch_size: 32 | Test_batch_size: 64 | trial: 0
+Test Trial: 0
+FC: top-1: 29.42% | top-5: 56.27% | top-10: 67.95%| top-20: 80.17%
+mAP: 31.43%
+POOL5: top-1: 23.43% | top-5: 50.41% | top-10: 63.21%| top-20: 74.78%
+mAP: 25.03%
+Test Trial: 1
+FC: top-1: 28.40% | top-5: 53.93% | top-10: 67.87%| top-20: 79.38%
+mAP: 30.52%
+POOL5: top-1: 22.56% | top-5: 50.72% | top-10: 64.00%| top-20: 76.68%
+mAP: 25.58%
+Test Trial: 2
+FC: top-1: 28.71% | top-5: 53.62% | top-10: 64.98%| top-20: 78.15%
+mAP: 30.74%
+POOL5: top-1: 22.69% | top-5: 48.07% | top-10: 61.50%| top-20: 75.81%
+mAP: 24.95%
+Test Trial: 3
+FC: top-1: 31.50% | top-5: 56.43% | top-10: 69.08%| top-20: 81.59%
+mAP: 31.88%
+POOL5: top-1: 24.19% | top-5: 50.57% | top-10: 64.11%| top-20: 76.10%
+mAP: 25.46%
+Test Trial: 4
+FC: top-1: 31.92% | top-5: 57.85% | top-10: 70.05%| top-20: 80.96%
+mAP: 32.85%
+POOL5: top-1: 26.30% | top-5: 53.38% | top-10: 64.74%| top-20: 75.28%
+mAP: 27.63%
+Test Trial: 5
+FC: top-1: 29.63% | top-5: 56.40% | top-10: 67.92%| top-20: 79.31%
+mAP: 31.04%
+POOL5: top-1: 23.67% | top-5: 52.27% | top-10: 65.42%| top-20: 76.60%
+mAP: 25.32%
+Test Trial: 6
+FC: top-1: 31.82% | top-5: 57.67% | top-10: 68.37%| top-20: 79.25%
+mAP: 32.66%
+POOL5: top-1: 25.19% | top-5: 50.96% | top-10: 63.58%| top-20: 76.68%
+mAP: 26.10%
+Test Trial: 7
+FC: top-1: 28.56% | top-5: 54.38% | top-10: 67.74%| top-20: 79.15%
+mAP: 31.05%
+POOL5: top-1: 22.30% | top-5: 48.86% | top-10: 62.14%| top-20: 75.41%
+mAP: 24.62%
+Test Trial: 8
+FC: top-1: 29.82% | top-5: 56.46% | top-10: 69.34%| top-20: 81.01%
+mAP: 32.09%
+POOL5: top-1: 26.58% | top-5: 50.28% | top-10: 61.00%| top-20: 73.36%
+mAP: 27.50%
+Test Trial: 9
+FC: top-1: 29.13% | top-5: 54.56% | top-10: 67.84%| top-20: 79.67%
+mAP: 31.06%
+POOL5: top-1: 22.43% | top-5: 48.65% | top-10: 62.50%| top-20: 76.26%
+mAP: 24.61%
+All Average:
+FC: top-1: 29.89% | top-5: 55.76% | top-10: 68.11%| top-20: 79.87%
+mAP: 31.53%
+POOL5: top-1: 23.93% | top-5: 50.42% | top-10: 63.22%| top-20: 75.70%
+mAP: 25.68%
